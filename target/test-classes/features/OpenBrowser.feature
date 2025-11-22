@@ -1,6 +1,9 @@
-Feature: Open Chrome Browser
+Feature: open flipkart browser
 
-  Scenario: Open Google home page in Chrome
+  Scenario: open flipkart homepage in chrome
     Given I open Chrome browser
-    When I navigate to Google
-    Then I should see the Google page title
+    When I navigate to Flipkart
+#    And I click on Login button
+#    Then I should see Flipkart page title
+#    And I click on Mobiles & Tablets
+     And I click on Electronics
