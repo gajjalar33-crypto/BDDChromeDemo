@@ -8,12 +8,12 @@ import org.junit.Assert;
 
 public class OpenBrowserSteps {
 
-    @Given("I open Chrome browser")
-    public void i_open_chrome_browser() {
-        // Browser is already opened in Hooks @Before
-        Assert.assertNotNull("Driver is not initialized", BaseClass.driver);
-        System.out.println("Chrome browser is open.");
-    }
+//    @Given("I open Chrome browser")
+//    public void i_open_chrome_browser() {
+//        // Browser is already opened in Hooks @Before
+//        Assert.assertNotNull("Driver is not initialized", BaseClass.driver);
+//        System.out.println("Chrome browser is open.");
+//    }
 
     @When("I navigate to Google")
     public void i_navigate_to_google() {
