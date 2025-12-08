@@ -1,6 +1,6 @@
-Feature: Open OrangeHRM
+Feature: Login to OrangeHRM using Excel data
 
-  Scenario: Open OrangeHRM login page
+  Scenario: Login OrangeHRM with multiple users from Excel
     Given I open Chrome browser
-    When I navigate to OrangeHRM
-    Then I should see OrangeHRM login page
+    When I login to OrangeHRM with users from Excel
+    Then I close the browser

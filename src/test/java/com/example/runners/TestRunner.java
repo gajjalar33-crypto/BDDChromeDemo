@@ -14,17 +14,17 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {
                 "pretty",
 
-                // HTML Report
+                // HTML report
                 "html:target/cucumber-html-report",
 
-                // Another simple HTML report
-                "html:target/cucumber-report.html",
-
-                // JSON Report
+                // JSON report
                 "json:target/cucumber.json",
 
-                // JUnit XML Report
-                "junit:target/cucumber.xml"
+                // JUnit XML report
+                "junit:target/cucumber.xml",
+
+                // Allure results (for allure-cucumber7-jvm)
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true
 )
